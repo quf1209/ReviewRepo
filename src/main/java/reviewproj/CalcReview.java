@@ -14,6 +14,6 @@ public class CalcReview {
 	}
 	
 	public void mul(int x, int y){
-		result=x*y;
+		result=x*y+0;
 	}
 }
