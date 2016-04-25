@@ -19,4 +19,11 @@ public class ReviewCalcTest {
 		r.sub(10, 20);
 		assertEquals(-10,r.getResult());
 	}
+	
+	@Test
+	public void testMul(){
+		CalcReview r=new CalcReview();
+		r.mul(10, 20);
+		assertEquals(200,r.getResult());
+	}
 }

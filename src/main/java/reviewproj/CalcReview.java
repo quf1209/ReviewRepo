@@ -12,4 +12,8 @@ public class CalcReview {
 	public void sub(int x, int y){
 		result=x-y;
 	}
+	
+	public void mul(int x, int y){
+		result=x*y;
+	}
 }
