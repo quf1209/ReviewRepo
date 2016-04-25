@@ -12,5 +12,11 @@ public class ReviewCalcTest {
 		r.add(10,  20);
 		assertEquals(30, r.getResult());	
 	}
+	@Test
+	public void testSub() {
+		CalcReview r = new CalcReview();
+		r.sub(10,  20);
+		assertEquals(-10, r.getResult());	
+	}
 
 }
